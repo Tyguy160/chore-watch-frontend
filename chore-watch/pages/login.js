@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 
-function App({ className }) {
+function Login({ className }) {
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = async (data) => {
     console.log(data);
@@ -46,4 +46,4 @@ function App({ className }) {
   );
 }
 
-export default App;
+export default Login;

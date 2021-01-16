@@ -2,7 +2,9 @@ export default function Home() {
   return (
     <div>
       <div>
-        <h1>Welcome to Chore Watch!</h1>
+        <h1>Dashboard</h1>
+        <div>Add a chore</div>
+        <div>Current chores</div>
       </div>
     </div>
   );

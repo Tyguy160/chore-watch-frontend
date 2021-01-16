@@ -1,5 +1,5 @@
 function About({ className }) {
-  return <div>This is the about page</div>;
+  return <div className=" text-center">This will be the about page</div>;
 }
 
 export default About;
